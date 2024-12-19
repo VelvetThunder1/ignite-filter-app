@@ -1,38 +1,33 @@
 {
-    "tags": [
-      { "category": "Face Shapes", "tags": ["Heart-shaped", "Oval", "Round", "Square", "Diamond", "Triangle", "Pear", "Rectangular", "Oblong"] },
-      { "category": "Noses", "tags": ["Large", "Small", "Pointed", "Button", "Crooked", "Aquiline", "Hooked", "Wide", "Flat", "Upturned", "Bulbous", "Thin", "Straight-bridged"] },
-      { "category": "Cheeks", "tags": ["High", "Low", "Wide", "Rosy", "Soft", "Prominent", "Apple-shaped"] },
-      { "category": "Eyes", "tags": ["Big", "Small", "Almond-shaped", "Round", "Hooded", "Wide-set", "Close-set", "Deep-set", "Sunken", "Bulging", "Brown", "Blue", "Green", "Hazel", "Gray", "Amber", "Violet", "Black", "Heterochromatic"] },
-      { "category": "Eyebrows", "tags": ["Thick", "Thin", "Arched", "Straight", "Curved", "Bushy", "Sparse", "Raised", "Furrowed", "Unibrow"] },
-      { "category": "Chins or Jaws", "tags": ["Strong", "Pointed", "Square", "Weak", "Chiseled", "Broad", "Narrow", "Feminine", "Masculine"] },
-      { "category": "Ears", "tags": ["Pointed", "Round", "Small", "Large", "Attached Lobes", "Unattached Lobes", "Pierced"] },
-      { "category": "Lips", "tags": ["Full", "Thin", "Pouty", "Wide", "Narrow", "Kissable", "Rosy", "Plump"] },
-      { "category": "Foreheads", "tags": ["High", "Low", "Wide", "Narrow", "Smooth", "Wrinkled"] },
-      { "category": "Hair", "tags": ["Blonde", "Brown", "Black", "Red", "White", "Gray", "Dyed", "Short", "Medium", "Long", "Straight", "Wavy", "Curly", "Frizzy", "Coily", "Ponytail", "Bun", "Bob-cut", "Buzz-cut", "Mohawk", "Dreadlocks", "Braided", "Pixie Cut", "Updo", "Layered", "Spiky", "Shaggy"] },
-      { "category": "Facial Hair", "tags": ["Clean-shaven", "Stubble", "Beard", "Goatee", "Moustache", "Sideburns", "Soul Patch"] },
-      { "category": "Skin", "tags": ["Clear", "Wrinkled", "Smooth", "Freckled", "Scarred", "Pockmarked", "Rosy", "Weathered"] },
-      { "category": "Overall Appearance", "tags": ["Baby-faced", "Chiseled", "Craggy", "Sculpted", "Symmetrical", "Thin", "Broad", "Defined", "Good-looking", "Ugly"] },
-      {"category": "Gender", "tags": ["Male", "Female", "Unisex"]},
-      {"category": "Beauty Score", "tags": ["Very Unattractive (1)", "Unattractive (2)", "Below Average (3)", "Somewhat Below Average (4)", "Average (5)",
-          "Somewhat Attractive (6)", "Attractive (7)", "Beautiful (8)", "Very Attractive (9)", "Perfect (10)"]
-      }
-      
-    ],
-    "images": [
-      {"id": 1, "src": "/images/image1.jpeg", "tags": ["Oval", "Large", "Low", "Almond-shaped", "Brown", "Straight", "Female", "Average (5)"]},
-      {"id": 2, "src": "/images/image2.jpeg", "tags": ["Triangle", "Small", "High", "Deep-set", "Brown", "Medium", "Male", "Attractive (7)"]},
-      {"id": 3, "src": "/images/image3.jpeg", "tags": ["Diamond", "Small", "High", "Almond-shaped", "Gray", "Bob-cut", "Female", "Very Attractive (9)"]},
-      {"id": 4, "src": "/images/image4.jpg", "tags": ["Diamond", "Small", "High", "Close-set", "Blue", "Long", "Female", "Very Attractive (9)"]},
-      {"id": 5, "src": "/images/image5.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide-set", "Black", "Coily", "Female", "Beautiful (8)"]},
-      {"id": 5, "src": "/images/image6.jpg", "tags": ["Heart-shaped", "Button", "High", "Hooded", "Gray", "Bun", "Female", "Beautiful (8)"]},
-      {"id": 5, "src": "/images/image7.jpg", "tags": ["Square", "Crooked", "Low", "Deep-set", "Black", "Medium", "Male", "Somewhat Attractive (6)"]},
-      {"id": 5, "src": "/images/image8.jpg", "tags": ["Rectangular", "Large", "High", "Hooded", "Gray", "Medium", "Male", "Beautiful (8)"]},
-      {"id": 5, "src": "/images/image9.jpg", "tags": ["Round", "Pointed", "Low", "Round", "Green", "Straight", "Female", "Somewhat Attractive (6)"]},
-      {"id": 5, "src": "/images/image10.jpg", "tags": ["Rectangular", "Wide", "Low", "Small", "Black", "Short", "Male", "Somewhat Attractive (6)"]},
-      {"id": 5, "src": "/images/image12.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
-      {"id": 5, "src": "/images/image13.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]}
-    ]
-  }
-  
-  
+  "tags": [
+    { "category": "Face Shapes", "tags": ["Heart-shaped", "Oval", "Round", "Square", "Diamond", "Triangle", "Pear", "Rectangular", "Oblong"] },
+    { "category": "Noses", "tags": ["Large nose", "Small nose", "Pointed nose", "Button nose", "Crooked nose", "Aquiline nose", "Hooked nose", "Wide nose", "Flat nose", "Upturned nose", "Bulbous nose", "Thin nose", "Straight-bridged nose"] },
+    { "category": "Cheeks", "tags": ["High cheeks", "Low cheeks", "Wide cheeks", "Rosy cheeks", "Soft cheeks", "Prominent cheeks", "Apple-shaped cheeks"] },
+    { "category": "Eyes", "tags": ["Big eyes", "Small eyes", "Almond-shaped eyes", "Round eyes", "Hooded eyes", "Wide-set eyes", "Close-set eyes", "Deep-set eyes", "Sunken eyes", "Bulging eyes", "Brown eyes", "Blue eyes", "Green eyes", "Hazel eyes", "Gray eyes", "Amber eyes", "Violet eyes", "Black eyes", "Heterochromatic eyes"] },
+    { "category": "Eyebrows", "tags": ["Thick eyebrows", "Thin eyebrows", "Arched eyebrows", "Straight eyebrows", "Curved eyebrows", "Bushy eyebrows", "Sparse eyebrows", "Raised eyebrows", "Furrowed eyebrows", "Unibrow"] },
+    { "category": "Chins or Jaws", "tags": ["Strong chin", "Pointed chin", "Square chin", "Weak chin", "Chiseled chin", "Broad chin", "Narrow chin", "Feminine chin", "Masculine chin"] },
+    { "category": "Ears", "tags": ["Pointed ears", "Round ears", "Small ears", "Large ears", "Attached lobes", "Unattached lobes", "Pierced ears"] },
+    { "category": "Lips", "tags": ["Full lips", "Thin lips", "Pouty lips", "Wide lips", "Narrow lips", "Kissable lips", "Rosy lips", "Plump lips"] },
+    { "category": "Foreheads", "tags": ["High forehead", "Low forehead", "Wide forehead", "Narrow forehead", "Smooth forehead", "Wrinkled forehead"] },
+    { "category": "Hair", "tags": ["Blonde hair", "Brown hair", "Black hair", "Red hair", "White hair", "Gray hair", "Dyed hair", "Short hair", "Medium hair", "Long hair", "Straight hair", "Wavy hair", "Curly hair", "Frizzy hair", "Coily hair", "Ponytail", "Bun", "Bob-cut", "Buzz-cut", "Mohawk", "Dreadlocks", "Braided hair", "Pixie cut", "Updo", "Layered hair", "Spiky hair", "Shaggy hair"] },
+    { "category": "Facial Hair", "tags": ["Clean-shaven", "Stubble", "Beard", "Goatee", "Moustache", "Sideburns", "Soul patch"] },
+    { "category": "Skin", "tags": ["Clear skin", "Wrinkled skin", "Smooth skin", "Freckled skin", "Scarred skin", "Pockmarked skin", "Rosy skin", "Weathered skin"] },
+    { "category": "Overall Appearance", "tags": ["Baby-faced", "Chiseled appearance", "Craggy appearance", "Sculpted appearance", "Symmetrical appearance", "Thin body", "Broad body", "Defined body", "Good-looking", "Ugly"] },
+    { "category": "Gender", "tags": ["Male", "Female", "Unisex"] },
+    { "category": "Beauty Score", "tags": ["Very Unattractive (1)", "Unattractive (2)", "Below Average (3)", "Somewhat Below Average (4)", "Average (5)", "Somewhat Attractive (6)", "Attractive (7)", "Beautiful (8)", "Very Attractive (9)", "Perfect (10)"] }
+  ],
+  "images": [
+    {"id": 1, "src": "/images/image1.jpeg", "tags": ["Oval", "Large nose", "Low cheeks", "Almond-shaped eyes", "Brown eyes", "Straight eyebrows", "Female", "Average (5)"]},
+    {"id": 2, "src": "/images/image2.jpeg", "tags": ["Triangle", "Small nose", "High cheeks", "Deep-set eyes", "Brown eyes", "Medium hair", "Male", "Attractive (7)"]},
+    {"id": 3, "src": "/images/image3.jpeg", "tags": ["Diamond", "Small nose", "High cheeks", "Almond-shaped eyes", "Gray eyes", "Bob-cut", "Female", "Very Attractive (9)"]},
+    {"id": 4, "src": "/images/image4.jpg", "tags": ["Diamond", "Small nose", "High cheeks", "Close-set eyes", "Blue eyes", "Long hair", "Female", "Very Attractive (9)"]},
+    {"id": 5, "src": "/images/image5.jpg", "tags": ["Heart-shaped", "Small nose", "Low cheeks", "Wide-set eyes", "Black eyes", "Coily hair", "Female", "Beautiful (8)"]},
+    {"id": 6, "src": "/images/image6.jpg", "tags": ["Heart-shaped", "Button nose", "High cheeks", "Hooded eyes", "Gray eyes", "Bun", "Female", "Beautiful (8)"]},
+    {"id": 7, "src": "/images/image7.jpg", "tags": ["Square", "Crooked nose", "Low cheeks", "Deep-set eyes", "Black eyes", "Medium hair", "Male", "Somewhat Attractive (6)"]},
+    {"id": 8, "src": "/images/image8.jpg", "tags": ["Rectangular", "Large nose", "High cheeks", "Hooded eyes", "Gray eyes", "Medium hair", "Male", "Beautiful (8)"]},
+    {"id": 9, "src": "/images/image9.jpg", "tags": ["Round", "Pointed nose", "Low cheeks", "Round eyes", "Green eyes", "Straight eyebrows", "Female", "Somewhat Attractive (6)"]},
+    {"id": 10, "src": "/images/image10.jpg", "tags": ["Rectangular", "Wide cheeks", "Low cheeks", "Small nose", "Black eyes", "Short hair", "Male", "Somewhat Attractive (6)"]},
+    {"id": 11, "src": "/images/image12.jpg", "tags": ["Heart-shaped", "Small nose", "High cheeks", "Almond-shaped eyes", "Black eyes", "Wavy hair", "Female", "Beautiful (8)"]},
+    {"id": 12, "src": "/images/image13.jpg", "tags": ["Round", "Crooked nose", "Low cheeks", "Wide-set eyes", "Black eyes", "Medium hair", "Male", "Average (5)"]}
+  ]
+}
