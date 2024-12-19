@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 import {
@@ -15,17 +15,11 @@ import { Tag } from '../../types'
 
 interface TagFilterProps {
   tags: Tag[]
+  selectedTags: string[]
+  onTagToggle: (tag: string) => void
 }
 
-export default function TagFilter({ tags }: TagFilterProps) {
-  const [selectedTags, setSelectedTags] = useState<string[]>([])
-
-  const handleTagToggle = (tag: string) => {
-    setSelectedTags(prev => 
-      prev.includes(tag) ? prev.filter(t => t !== tag) : [...prev, tag]
-    )
-  }
-
+export default function TagFilter({ tags, selectedTags, onTagToggle }: TagFilterProps) {
   return (
     <aside className="w-full lg:w-64 space-y-4">
       <div className="flex items-center justify-between">
@@ -33,7 +27,7 @@ export default function TagFilter({ tags }: TagFilterProps) {
         <Button 
           variant="outline" 
           size="sm"
-          onClick={() => setSelectedTags([])}
+          onClick={() => selectedTags.forEach(tag => onTagToggle(tag))}
           disabled={selectedTags.length === 0}
         >
           Reset
@@ -56,7 +50,7 @@ export default function TagFilter({ tags }: TagFilterProps) {
                     <Checkbox
                       id={tag}
                       checked={selectedTags.includes(tag)}
-                      onCheckedChange={() => handleTagToggle(tag)}
+                      onCheckedChange={() => onTagToggle(tag)}
                     />
                     <Label htmlFor={tag}>{tag}</Label>
                   </motion.div>
@@ -69,4 +63,3 @@ export default function TagFilter({ tags }: TagFilterProps) {
     </aside>
   )
 }
-

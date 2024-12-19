@@ -24,8 +24,8 @@ export default function App() {
       <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col lg:flex-row gap-8">
-          <TagFilter tags={data.tags} selectedTags={selectedTags} onTagToggle={handleTagToggle} />
-          <ResultGrid images={filteredImages} />
+        <TagFilter tags={data.tags} selectedTags={selectedTags} onTagToggle={handleTagToggle}/>
+        <ResultGrid images={filteredImages} />
         </div>
       </div>
     </div>
