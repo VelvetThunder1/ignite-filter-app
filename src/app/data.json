@@ -1,15 +1,37 @@
 {
     "tags": [
-      {"category": "Feature", "tags": ["Eyes", "Lips", "Nose", "Chin"]},
+      { "category": "Face Shapes", "tags": ["Heart-shaped", "Oval", "Round", "Square", "Diamond", "Triangle", "Pear", "Long/Rectangular", "Oblong"] },
+      { "category": "Noses", "tags": ["Large", "Small", "Pointed", "Button", "Crooked", "Aquiline", "Hooked", "Wide", "Flat", "Upturned", "Bulbous", "Thin", "Straight-bridged"] },
+      { "category": "Cheeks", "tags": ["High", "Low", "Wide", "Rosy", "Soft", "Prominent", "Apple-shaped"] },
+      { "category": "Eyes", "tags": ["Big", "Small", "Almond-shaped", "Round", "Hooded", "Wide-set", "Close-set", "Deep-set", "Sunken", "Bulging", "Brown", "Blue", "Green", "Hazel", "Gray", "Amber", "Violet", "Black", "Heterochromatic"] },
+      { "category": "Eyebrows", "tags": ["Thick", "Thin", "Arched", "Straight", "Curved", "Bushy", "Sparse", "Raised", "Furrowed", "Unibrow"] },
+      { "category": "Chins or Jaws", "tags": ["Strong", "Pointed", "Square", "Weak", "Chiseled", "Broad", "Narrow", "Feminine", "Masculine"] },
+      { "category": "Ears", "tags": ["Pointed", "Round", "Small", "Large", "Attached Lobes", "Unattached Lobes", "Pierced"] },
+      { "category": "Lips", "tags": ["Full", "Thin", "Pouty", "Wide", "Narrow", "Kissable", "Rosy", "Plump"] },
+      { "category": "Foreheads", "tags": ["High", "Low", "Wide", "Narrow", "Smooth", "Wrinkled"] },
+      { "category": "Hair", "tags": ["Blonde", "Brown", "Black", "Red", "White", "Gray", "Dyed", "Short", "Medium", "Long", "Straight", "Wavy", "Curly", "Frizzy", "Coily", "Ponytail", "Bun", "Bob-cut", "Buzz-cut", "Mohawk", "Dreadlocks", "Braided", "Pixie Cut", "Updo", "Layered", "Spiky", "Shaggy"] },
+      { "category": "Facial Hair", "tags": ["Clean-shaven", "Stubble", "Beard", "Goatee", "Moustache", "Sideburns", "Soul Patch"] },
+      { "category": "Skin", "tags": ["Clear", "Wrinkled", "Smooth", "Freckled", "Scarred", "Pockmarked", "Rosy", "Weathered"] },
+      { "category": "Overall Appearance", "tags": ["Baby-faced", "Chiseled", "Craggy", "Sculpted", "Symmetrical", "Thin", "Broad", "Defined", "Good-looking", "Ugly"] },
       {"category": "Gender", "tags": ["Male", "Female", "Unisex"]},
-      {"category": "Beauty Score", "tags": ["Average (5)", "Attractive (7)", "Beautiful (8)", "Very Beautiful (10)"]}
+      {"category": "Beauty Score", "tags": ["Very Unattractive (1)", "Unattractive (2)", "Below Average (3)", "Somewhat Below Average (4)", "Average (5)",
+          "Somewhat Attractive (6)", "Attractive (7)", "Beautiful (8)", "Very Attractive (9)", "Perfect (10)"]
+      }
+      
     ],
     "images": [
-      {"id": 1, "src": "/images/image1.jpeg", "tags": ["Eyes", "Female", "Average (5)"]},
-      {"id": 2, "src": "/images/image2.jpeg", "tags": ["Lips", "Male", "Attractive (7)"]},
-      {"id": 3, "src": "/images/image3.jpeg", "tags": ["Nose", "Female", "Very Beautiful (10)"]},
-      {"id": 4, "src": "/images/image4.jpg", "tags": ["Chin", "Female", "Beautiful (8)"]},
-      {"id": 5, "src": "/images/image5.jpg", "tags": ["Eyes", "Female", "Beautiful (8)"]}
+      {"id": 1, "src": "/images/image1.jpeg", "tags": ["Oval", "Large", "Low", "Almond-shaped", "Brown", "Straight", "Female", "Average (5)"]},
+      {"id": 2, "src": "/images/image2.jpeg", "tags": ["Triangle", "Small", "High", "Deep-set", "Brown", "Medium", "Male", "Attractive (7)"]},
+      {"id": 3, "src": "/images/image3.jpeg", "tags": ["Diamond", "Small", "High", "Almond-shaped", "Gray", "Bob-cut", "Female", "Very Attractive (9)"]},
+      {"id": 4, "src": "/images/image4.jpg", "tags": ["Diamond", "Small", "High", "Close-set", "Blue", "Long", "Female", "Very Attractive (9)"]},
+      {"id": 5, "src": "/images/image5.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image6.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image7.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image8.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image9.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image10.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image11.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]},
+      {"id": 5, "src": "/images/image12.jpg", "tags": ["Heart-shaped", "Small", "Low", "Wide", "Black", "Coily", "Female", "Beautiful (8)"]}
     ]
   }
   
